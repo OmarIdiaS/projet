@@ -1,0 +1,162 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  
+  
+  width: 100em;
+  background-color: rgba(0, 0,255,0);
+  
+  
+}
+
+
+
+li :not(.cnt){
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #111;
+  
+  
+}
+li a:hover {
+    background-color: gray ; 
+}
+
+li a.lnn{
+  background-color:white;
+  color :black ;
+}
+.active {
+  
+}
+
+img.omar{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 50%;
+  float : right ;
+}
+
+img.isty{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80px;
+    float : right ;
+  
+}
+
+img.fso{
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 80px;
+    float : right ;
+    height : 50px;
+  
+}
+
+blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; 
+    animation: 1s linear infinite condemned_blink_effect;
+    text-align : left ;
+  }
+  @-webkit-keyframes condemned_blink_effect { 
+    0% {
+      visibility: hidden;
+    }
+    70% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    70% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  
+  
+  div {
+      /*border : 2px solid rgb(0, 255, 34)  ;*/
+      
+      text-align: center ;
+      background-color : rgb(255, 255, 255);
+      
+    }
+    div:hover{
+      background-color: rgb(240, 235, 235);
+    }
+
+  p{
+      float : center ;
+  }
+
+  ul.cnt:hover{
+    background-color:gray;
+  }
+
+  
+
+  li.cnt{
+    text-align: center ;
+  }
+
+  img.lnkdin, img.l{
+    
+    
+    padding: 5px;
+    width: 20px;
+  }
+
+  img.ls{
+    padding: 5px;
+    width: 35px;
+    height : 30px;
+  }
+
+ 
+  div#lng{
+    overflow: hidden ;
+  }
+
+  ul#cnt{
+    text-align : center ;
+  }
+  
+div#cnt{
+  border : 1px solid white  ;
+  text-align: center;
+  background-color: rgb(180, 221, 207);
+}
+
+table {
+  
+  display: inline-table;
+}
+
+p {
+  font-size : 1.5em; 
+  
+}
