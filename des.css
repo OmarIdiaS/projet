@@ -4,11 +4,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  
   position: fixed;
-  
-  
-  width: 100em; 
+  width: 100em;
   background-color: rgba(0, 0,255,0);
   
   
@@ -20,7 +18,7 @@ li :not(.cnt){
   float: left;
 }
 
-li a {
+li a:not(.o) {
   display: block;
   color: white;
   text-align: center;
@@ -70,7 +68,7 @@ img.fso{
 }
 
 blink {
-    -webkit-animation: 2s linear infinite condemned_blink_effect; 
+    -webkit-animation: 2.5s linear infinite condemned_blink_effect; 
     animation: 1s linear infinite condemned_blink_effect;
     text-align : left ;
   }
@@ -159,6 +157,11 @@ table {
 p {
   font-size : 1.5em; 
   
+}
+
+p.bn{
+  font-size:  3em;
+  font-family : cursive;
 }
 
 img.lg{
