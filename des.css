@@ -185,3 +185,11 @@ a.o{
   width :50px;
   height : 18px;
 }
+
+h2.positionner{
+  padding : 20px 85px 20px 0px;
+}
+
+h2.positionnerJ{
+  padding : 20px 20px 20px 0px;
+}
