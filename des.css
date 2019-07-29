@@ -205,3 +205,6 @@ img.lsk{
     height : 30px;
 
 }
+td{
+  overflow: auto;
+  }
