@@ -6,7 +6,7 @@ ul {
   overflow: hidden; 
   
   position: fixed;
-  width: 100em;
+  width: 100em; 
   background-color: rgba(0, 0,255,0);
   z-index: 30000
    
