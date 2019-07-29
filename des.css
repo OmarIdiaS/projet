@@ -120,7 +120,7 @@ blink {
     text-align: center ;
   }
 
-  img.lnkdin, img.l{
+  img.l{
     
     height : 60px;
     padding: 50px;
@@ -131,6 +131,11 @@ blink {
     padding: 5px;
     width: 50px;
     height : 60px;
+  }
+
+  img.lnkdin, img.gm{
+    height : 30px; 
+    width : 30px;
   }
 
  
