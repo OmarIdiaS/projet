@@ -155,7 +155,7 @@ table {
   display: inline-table;
   overflow: auto;
   border-collapse : separate ; 
-  border-spacing : 40px 0px;
+  border-spacing : 50px 10px;
 }
 
 p {
