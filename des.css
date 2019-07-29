@@ -154,7 +154,8 @@ table {
   
   display: inline-table;
   overflow: auto;
-  cellspacing : 40px;
+  border-collapse : separate ; 
+  border-spacing : 40px 0px;
 }
 
 p {
