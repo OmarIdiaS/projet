@@ -267,4 +267,29 @@ td{
   
  }
 
+
+ .progress{
+  
+    
+    width: 150px;
+    height: 20px;
+    padding: 3px 3px 2px 3px;
+    border-radius: 30px;
+    background-color: #111;
+
+    
+  }
+
+  progress::-webkit-progress-value{
+   
+    background:  rgb(89, 194, 212);
+    border-radius: 30px;
+
+}
+
+progress::-webkit-progress-bar{
+  background: transparent;
+}
+
+  
  
