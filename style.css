@@ -316,11 +316,11 @@ a:hover {
   
   
 }
-.col-sm{
+/* .col-sm{
 	width: 200px; height: 200px;
 	background-color: #ffffff;
 	position: relative;
-	/* col-sm-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75); */
+	
 }
 .col-sm:after, .col-sm:before{
 	mix-blend-mode:multiply;
@@ -353,7 +353,7 @@ a:hover {
 .col-sm:before {
 	background-color: rgb(53, 174, 119);
 	  clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-}
+} */
 .cntComp{
   margin-top : 10% !important;
   margin-bottom: 6% !important;
@@ -737,4 +737,15 @@ a:hover {
 
 .page:nth-child(odd){
   background-position: right top;
+}
+
+
+.jumbotron{
+  border-radius: 30px !important;
+  text-align: center;
+  border: 1.4px black solid;
+}
+
+.jumbotron > p{
+  font-size: 16px;
 }
